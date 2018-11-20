@@ -11,10 +11,10 @@ try :
         print(" your turn ")
         print("1 : paper 2 : scissors 3 : rock")
         first = int(input())
-        second = random.randint(1, 3)#generating random integer
-        second_val = cases[second] #its value any (rock ,paper,scissors)
-        first_val = cases[first]    #its value any (rock ,paper,scissors)
         if first in [1,2,3]:
+            second = random.randint(1, 3)  # generating random integer
+            second_val = cases[second]  # its value any (rock ,paper,scissors)
+            first_val = cases[first]  # its value any (rock ,paper,scissors)
             print("---------------------------------------------------------------------------------------------------------------------------")
             print('______________________',first_val.upper(), " VS ", second_val.upper(),'______________________')
             if(first > second):
@@ -31,7 +31,7 @@ try :
                 print("______________________ ITS A DRAW :0 ______________________")
 
         else:
-            print("valid input")
+            print(" enter a valid input")
 except ValueError:
     print("THANK YOU FOR JOINING US :)")
 
