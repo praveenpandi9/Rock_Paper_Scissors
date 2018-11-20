@@ -5,7 +5,7 @@
 '''
 import random
 cases = {1 : "paper",2 : "scissor",3 : "rock"}
-print("ENTER EXIT to exit")
+print("ENTER any string to exit")
 try :
     while True:
         print(" your turn ")
@@ -31,7 +31,7 @@ try :
                 print("______________________ ITS A DRAW :0 ______________________")
 
         else:
-            print(" enter a valid input")
+            print("______________________ enter valid input :/ ______________________")
 except ValueError:
     print("THANK YOU FOR JOINING US :)")
 
