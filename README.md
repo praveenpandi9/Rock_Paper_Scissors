@@ -1,2 +1,3 @@
-# Rock_Paper_Scissors
+# Rock_Paper_Scissors version 1.0
 a simple python game
+hope you enjoy it 
